@@ -1,0 +1,37 @@
+h2 {
+  color: white;
+}
+
+.container {
+  border: 1px solid rgb(77, 81, 123);
+  border-radius: 20px;
+  background-color: red;
+  padding: 20px;
+}
+.container p {
+  color: blue;
+}
+
+div {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.box1 {
+  margin-left: 150px;
+}
+
+.box2 {
+  margin-left: 300px;
+}
+
+.box3 {
+  margin-left: 450px;
+}
+
+.box4 {
+  margin-left: 600px;
+}
+
+/*# sourceMappingURL=output.css.map */

@@ -1,0 +1,36 @@
+$bgColor : lightblue;
+$txtColor : gray ;
+$themeColor : red;
+
+@if $themeColor == blue {
+    $bgColor : rgb(68, 0, 255);
+    $txtColor : white;
+}
+@else if $themeColor == red {
+    h2{
+        color : white;
+    }
+    $bgColor : red;
+    $txtColor : blue;
+}
+.container{
+    border: 1px solid rgb(77, 81, 123);
+    border-radius: 20px;
+    background-color: $bgColor;
+    padding: 20px;
+    p{
+        color: $txtColor;
+    }
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+}
+
+@for $i from 1 through 4 {
+    .box#{$i}{
+        margin-left: $i * 150px;
+    }
+}
